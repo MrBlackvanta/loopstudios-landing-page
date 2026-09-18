@@ -1,5 +1,9 @@
 import { SiteHeader } from "@/components/layout";
-import { HeroSection, InteractiveSection } from "@/views/home";
+import {
+  CreationsSection,
+  HeroSection,
+  InteractiveSection,
+} from "@/views/home";
 
 export default function Home() {
   return (
@@ -8,6 +12,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <InteractiveSection />
+        <CreationsSection />
       </main>
     </>
   );
