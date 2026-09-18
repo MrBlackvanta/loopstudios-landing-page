@@ -5,12 +5,55 @@
   --font-display:
     var(--font-josefin-sans), ui-sans-serif, system-ui, sans-serif;
   --font-sans: var(--font-alata), ui-sans-serif, system-ui, sans-serif;
+
+  --color-ink-muted: #767676;
+
+  --text-hero: 2.5rem;
+  --text-hero--line-height: 2.375rem;
+  --text-hero-lg: 4.5rem;
+  --text-hero-lg--line-height: 4.375rem;
+  --text-section: 2rem;
+  --text-section--line-height: 1;
+  --text-section-lg: 3rem;
+  --text-section-lg--line-height: 1;
+  --text-tile: 1.5rem;
+  --text-tile--line-height: 1;
+  --text-tile-lg: 2rem;
+  --text-tile-lg--line-height: 1;
+  --text-menu: 1.5rem;
+  --text-menu--line-height: 1.5625rem;
+  --text-body: 0.9375rem;
+  --text-body--line-height: 1.5625rem;
+  --text-label: 0.875rem;
+  --text-label--line-height: 1;
+
+  --tracking-label: 0.357em;
 }
 
 @layer base {
   body {
-    @apply font-sans;
+    @apply text-body bg-white font-sans text-black;
   }
+}
+
+@utility v-display {
+  @apply font-display font-light uppercase;
+}
+
+@utility v-tile-scrim {
+  background-image: linear-gradient(
+    to right,
+    rgb(0 0 0 / 0.6) 5rem,
+    rgb(0 0 0 / 0) 18.75rem
+  );
+}
+
+@utility v-tile-scrim-y {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0 0 0 / 0) 28.9%,
+    rgb(0 0 0 / 0.6) 100%
+  );
 }
 
 @utility v-focus-ring {
