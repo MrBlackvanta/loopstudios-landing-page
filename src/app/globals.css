@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@source not "../../*.md";
+
+@theme {
+  --font-display:
+    var(--font-josefin-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-alata), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}
+
+@utility v-focus-ring {
+  @apply focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-current;
+}
