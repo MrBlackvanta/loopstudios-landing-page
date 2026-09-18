@@ -1,5 +1,4 @@
 import { creations } from "@/data";
-
 import CreationCard from "./creation-card";
 
 export default function CreationsSection() {

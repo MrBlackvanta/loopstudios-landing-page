@@ -1,5 +1,3 @@
-import type { StaticImageData } from "next/image";
-
 import curiosityDesktop from "@/assets/images/desktop/image-curiosity.webp";
 import deepEarthDesktop from "@/assets/images/desktop/image-deep-earth.webp";
 import fisheyeDesktop from "@/assets/images/desktop/image-fisheye.webp";
@@ -16,6 +14,7 @@ import gridMobile from "@/assets/images/mobile/image-grid.webp";
 import nightArcadeMobile from "@/assets/images/mobile/image-night-arcade.webp";
 import pocketBorealisMobile from "@/assets/images/mobile/image-pocket-borealis.webp";
 import soccerTeamMobile from "@/assets/images/mobile/image-soccer-team.webp";
+import type { StaticImageData } from "next/image";
 
 export type Creation = {
   title: string;

@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/layout";
+import { SiteFooter, SiteHeader } from "@/components/layout";
 import {
   CreationsSection,
   HeroSection,
@@ -14,6 +14,7 @@ export default function Home() {
         <InteractiveSection />
         <CreationsSection />
       </main>
+      <SiteFooter />
     </>
   );
 }
