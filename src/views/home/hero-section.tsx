@@ -15,7 +15,7 @@ export default function HeroSection() {
           className="size-full object-cover"
         />
       </picture>
-      <div className="absolute inset-0 bg-black/40" />
+      <div className="absolute inset-0 md:bg-black/40" />
       <div className="relative mx-auto w-full max-w-289.5 px-6 pt-56.75 lg:pt-56.5">
         <h1
           id="hero-title"

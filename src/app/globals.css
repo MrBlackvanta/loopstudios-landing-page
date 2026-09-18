@@ -51,8 +51,8 @@
 @utility v-tile-scrim {
   background-image: linear-gradient(
     to right,
-    rgb(0 0 0 / 0.6) 5rem,
-    rgb(0 0 0 / 0) 18.75rem
+    rgb(0 0 0 / 0.65),
+    rgb(0 0 0 / 0) 15rem
   );
 }
 
