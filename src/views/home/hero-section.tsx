@@ -19,7 +19,7 @@ export default function HeroSection() {
       <div className="relative mx-auto w-full max-w-289.5 px-6 pt-56.75 lg:pt-56.5">
         <h1
           id="hero-title"
-          className="v-display text-hero lg:text-hero-lg border-2 border-white px-5.5 pt-6 pb-4 text-white lg:w-162.5 lg:p-9.5 lg:pb-6.5"
+          className="v-display text-hero lg:text-hero-lg border-2 border-white px-5.5 pt-6 pb-4 text-white md:w-162.5 lg:p-9.5 lg:pb-6.5"
         >
           Immersive experiences that deliver
         </h1>

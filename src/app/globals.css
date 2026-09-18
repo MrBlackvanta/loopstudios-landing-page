@@ -38,6 +38,10 @@
   body {
     @apply text-body bg-white font-sans text-black;
   }
+
+  button:not(:disabled) {
+    @apply cursor-pointer;
+  }
 }
 
 @utility v-display {
